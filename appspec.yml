@@ -8,7 +8,7 @@ files:
   - source: /ContactUs.html
     destination: /usr/share/nginx/html/
   - source: /project.php
-    destination /usr/share/nginx/html/
+    destination: /usr/share/nginx/html/
 
 hooks:
   BeforeInstall:
