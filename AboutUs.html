@@ -4,40 +4,87 @@
 <title> AWS Sample Blog </title>
 
 <style>
-body {background-color:lightgray}
-h1   {color:blue;	font-size:200%; }
-h3   {color:red; font-size:125%; }
-p    {color:green}
+	h1 {color:white;	font-family:verdana;    font-size:130%; }
+	h2 {color:#B22222;	font-family:verdana;	font-size:112%;}
+	h3 {color:#191970;	font-family:verdana;	font-size:106%;}
+	h4 {color:##FFA500;	font-family:verdana;	font-size:100%;}
+	#header {
+ 		    background-color:black;
+		    color:white;
+		    text-align:center;
+		    padding:5px;
+		}
 
-table, th, td { text-align: left; padding: 5px; }
+	#nav {
+		    line-height:32px;
+		    background-color:#eeeeee;
+		    height:450px;
+		    width:190px;
+		    float:left;
+		    padding:10px; 
+		}
+
+	#section {
+		    width:750px;
+		    float:left;
+		    display:inline-block;
+		    padding:10px; 
+		}
+
+	#footer {
+		    background-color:white;
+		    color:black;
+		    width:900px;
+		    clear:both;
+		    text-align:center;
+ 		    padding:5px; 
+		}
+
+	
+	table, th, td { text-align: left; padding: 5px; }
+
 </style>
 
 
 
 <body>
 
-<center> <h1>Amazon Web services </h1> </center>
-<br>
 
-<table border-spacing: 2px; style="width:100%">
-	
-<tr> <h3> <u>	Radical Technologies </u> </h3> </tr>
-	
-<br>
-<tr>
-	<td> Trainer:	Ishant Kumar</td>
-</tr>
-	
-<tr>
-	<td> Trainees:	Sumanth, Gunashekhar </td>
-</tr>
-<tr>
-	<td> HSR Lay out, Bangalore. </td>
-</tr>
-</table>
+	<div id="header">
+		<img id='topLogo' src='https://s3-eu-west-1.amazonaws.com/sumanth.royale321/Logo.png' alt='problem downloading image' style="height:70px;width:500px";>
+		<center> <h1> Welcome to the AWS World! </h1> </center>
+	</div>
+	<br>
 
-<br>
-<a href='/index.html'> Home Page </a>
+	<div id:"section">
+		<table border-spacing: 2px; style="width:100%">
+	
+		<tr> 
+			<h3> <u>	Radical Technologies	</u> </h3> 
+		</tr>
+		<br>
+
+		<tr>
+			<td>Course	:	Amazon Web Services</td>
+		</tr>
+		<tr>
+			<td>Trainer	:	Ishant Kumar</td>
+		</tr>
+		<tr>
+			<td>Trainees	:	Sumanth, Gunashekhar</td>
+		</tr>
+		<tr>
+			<td>Address	:	HSR Layout, Agara, Bangalore. </td>
+		</tr>
+	</table>
+	</div>
+
+
+<div id="footer">
+	<h4>	<a href='/index.html'> Home </a>	</h4> 
+	<p>	Copyright © Sampleblog.in	</p>
+	<h4>	<a href='/ContactUs.html'> Contact us </a>	</h4>
+</div>
 
 </body>
 </html>
