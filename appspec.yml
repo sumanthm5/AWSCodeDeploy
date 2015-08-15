@@ -1,8 +1,15 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html /AboutUs.html /ContactUs.html
+  - source: /index.html 
     destination: /usr/share/nginx/html/
+  - source: /AboutUs.html
+    destination: /usr/share/nginx/html/
+  - source: /ContactUs.html
+    destination: /usr/share/nginx/html/
+  - source: /project.php
+    destination /usr/share/nginx/html/
+
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
